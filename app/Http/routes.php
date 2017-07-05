@@ -11,4 +11,8 @@
 |
 */
 
+
+
+Route::auth();
+Route::get('/home', 'HomeController@index');
 Route::get('{id?}', 'BaseController@getIndex');
